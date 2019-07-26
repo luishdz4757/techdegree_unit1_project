@@ -14,6 +14,12 @@ var quotes = [ {quote:"A man who stands for nothing will fall for Anything",
 
                {quote:"Don't count the days, make the days count",
                source:"Muhammad Ali"},
+              
+               {quote:"You have to be able to accept failure to get better",
+               suorce:"Lebron James"},
+              
+               {quote:"An eye for an eye only ends up making the whole world blind",
+               source:"Ghandi"}
                 ];
 
 console.log(quotes);
