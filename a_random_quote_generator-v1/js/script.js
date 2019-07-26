@@ -64,6 +64,5 @@ document.getElementById('quote-box').innerHTML = htmlString;
 // This will print a new quote and get a new random color every 12 seconds//
 
 setInterval(printQuote, 12000);
-setInterval(randomBackgroundColor, 12000);
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
