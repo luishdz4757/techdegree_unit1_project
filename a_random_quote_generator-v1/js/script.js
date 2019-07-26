@@ -58,11 +58,7 @@ htmlString += '<span class="year">' + randomQuote.year + '</span>'
 }
 htmlString += '</p>';
 
-  console.log(printQuote(getRandomQuote));
-
 document.getElementById('quote-box').innerHTML = htmlString;
 };
-
-console.log(printQuote());
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
