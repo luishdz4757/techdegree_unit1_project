@@ -21,7 +21,7 @@ console.log(quotes);
 // This function randomly selects one of my quotes //
 
 function getRandomQuote () {
-  randomNumber = Math.floor(Math.random() * quotes.length);
+  var randomNumber = Math.floor(Math.random() * quotes.length);
   return quotes [randomNumber];
 }
 console.log(getRandomQuote);
