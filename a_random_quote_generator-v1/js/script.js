@@ -57,8 +57,13 @@ if (randomQuote.year !== 0){
 htmlString += '<span class="year">' + randomQuote.year + '</span>'
 }
 htmlString += '</p>';
-
+randomBackgroundColor();
 document.getElementById('quote-box').innerHTML = htmlString;
 };
+
+// This will print a new quote and get a new random color every 12 seconds//
+
+setInterval(printQuote, 12000);
+setInterval(randomBackgroundColor, 12000);
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
