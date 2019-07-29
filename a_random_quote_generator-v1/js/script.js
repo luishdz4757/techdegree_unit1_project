@@ -16,7 +16,7 @@ var quotes = [ {quote:"A man who stands for nothing will fall for Anything",
                source:"Muhammad Ali"},
               
                {quote:"You have to be able to accept failure to get better",
-               suorce:"Lebron James"},
+               source:"Lebron James"},
               
                {quote:"An eye for an eye only ends up making the whole world blind",
                source:"Ghandi"}
@@ -56,10 +56,10 @@ function printQuote (){
 htmlString += '<p class="quote">' + randomQuote.quote + '</p>';
 htmlString += '<p class="source">' + randomQuote.source;
 
-if (randomQuote.citation !== 0){
+if (randomQuote.citation){
 htmlString += '<span class="citation">' + randomQuote.citation + '</span>'
 }
-if (randomQuote.year !== 0){
+if (randomQuote.year){
 htmlString += '<span class="year">' + randomQuote.year + '</span>'
 }
 htmlString += '</p>';
